@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>chat togather</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" defer src="./js/common.js"></script>
+</head>
+<body>
+  <div id="header">
+    <h1>let's chat togather</h1>
+  </div>
+  <!-- 체팅창 -->
+  <div class="chatting_wrap">
+    <!--chat_a-->
+    <div class="chatting">
+      <!-- 사용자이름 -->
+      <div class="title">chris</div>
+      <!-- 체팅리스트영역 -->
+      <div class="chat_box"></div>
+      <!-- 입력영역 -->
+      <div class="input_box">
+        <input type="text" class="user_a" onkeypress="inputChat(this)">
+        <button class="user_a" onclick="sendTxt(this)">보내기</button>
+      </div>
+    </div>
+    <!-- chat_b -->
+    <div class="chatting">
+      <!-- 사용자이름 -->
+      <div class="title">chris</div>
+      <!-- 체팅리스트영역 -->
+      <div class="chat_box"></div>
+      <!-- 입력영역 -->
+      <div class="input_box">
+        <input type="text" class="user_b" onkeypress="inputChat(this)">
+        <button class="user_b" onclick="sendTxt(this)">보내기</button>
+      </div>
+    </div>
+    <!-- chat_c -->
+    <div class="chatting">
+      <!-- 사용자이름 -->
+      <div class="title">chris</div>
+      <!-- 체팅리스트영역 -->
+      <div class="chat_box"></div>
+      <!-- 입력영역 -->
+      <div class="input_box">
+        <input type="text" class="user_c" onkeypress="inputChat(this)">
+        <button class="user_c" onclick="sendTxt(this)">보내기</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
